@@ -1,7 +1,9 @@
 #needs installation of openai package
 
 import openai
-openai.api_key = "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"
+openai.api_key = "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" #this is the paid one
+# openai.api_key = "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" # free ones
+# openai.api_key = "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"
 
 def translate(text):
     response = openai.Completion.create(
